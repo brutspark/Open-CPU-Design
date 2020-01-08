@@ -40,7 +40,7 @@ limitations under the License.
 	| |   |_CLOCK_INPUT
 	| |   |_ENABLE
 	| |   |_Instruction Input
-	| |   
+	| |
 	| |_
 	|   |_Output
 	|     |_ALU_OPCODE
@@ -49,44 +49,45 @@ limitations under the License.
 	|     |_Working Register Select
 	|     |_
 	|     |_Output Register Select
-	|     
+	|
 	|	
     	|_Working Register with 8-bit width
-	| |_		
+	| |_
 	|   |_Working Register
 	|
 	|_Status Register
 	| |_
 	|   |_Status Register Flags 
-	|     |_Sign, Carrry, Zero, Interrupt, Overflow, 
+	|     |_Sign, Carry, Zero, Interrupt, Overflow, 
 	|
 	|_ALU with 8-bit working register 
 	| |_
 	|   |_Arithmetic Functions
 	|   | |_ADD, MUL, SUB, DIV, INC, DEC, COMP 
-	|   |  	
-	|   |_Logical Functions							
-	|     |_AND, OR, INV, XOR, BSR, BSL 			       
+	|   | 
+	|   |_Logical Functions	
+	|     |_AND, OR, INV, XOR, BSR, BSL 
 	|
 	|_Interrupt Control Unit
 	| |_
-	|   |_Interrupt Status Register
+	|   |_Interrupt Status  Register
 	|   |_Interrupt Control Register
-	|   |_Interrupt Service Register							       |		
-	
-
+	|   |_Interrupt Service Register
+	|_
+	| |_
+	    
 
 /===================================================================================/
 		OpenCPU Instruction Set
 
 Arithmetic Operations
-	ADD Wreg, Reg
-	MUL Wreg, Reg
-	SUB Wreg, Reg
-	DIV Wreg, Reg
-	INC Wreg, Reg
-	DEC Wreg, Reg
-	CMP Wreg, Reg
+	ADD WReg, Reg
+	MUL WReg, Reg
+	SUB WReg, Reg
+	DIV WReg, Reg
+	INC WReg, Reg
+	DEC WReg, Reg
+	CMP WReg, Reg
 
 Logical Operations
 	AND WReg, Reg
@@ -105,3 +106,4 @@ Control Operations
 	NOP 
 	SLEEP
 	INT
+
