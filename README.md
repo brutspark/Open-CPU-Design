@@ -14,8 +14,8 @@ limitations under the License.
 
 /========================================================================/
 		 OpenCPU design for 8-bit architecture 
+		 
 
- 
 --8-bit Open CPU Architecture
 	| 
 	|_Port Registers
@@ -50,7 +50,7 @@ limitations under the License.
 	|     |_
 	|     |_Output Register Select
 	|
-	|	
+	|
     	|_Working Register with 8-bit width
 	| |_
 	|   |_Working Register
@@ -65,7 +65,7 @@ limitations under the License.
 	|   |_Arithmetic Functions
 	|   | |_ADD, MUL, SUB, DIV, INC, DEC, COMP 
 	|   | 
-	|   |_Logical Functions	
+	|   |_Logical Functions
 	|     |_AND, OR, INV, XOR, BSR, BSL 
 	|
 	|_Interrupt Control Unit
@@ -77,7 +77,7 @@ limitations under the License.
 	| |_
 	    
 
-/===================================================================================/
+/==============================================================/
 		OpenCPU Instruction Set
 
 Arithmetic Operations
